@@ -18,7 +18,7 @@
 
         <div class="hx:flex-1 hx:min-w-0">
             <h3>
-                <a class="hx:block hx:font-semibold hx:text-xl hx:text-slate-900 hx:dark:text-slate-100 hx:hover:underline"
+                <a class="hx:block hx:font-bold hx:text-3xl hx:!text-slate-900 hx:dark:!text-slate-100 hx:!no-underline"
                     href="{{ .RelPermalink }}">
                     {{ .Title }}
                 </a>
@@ -27,7 +27,7 @@
             <div class="hx:flex hx:items-center hx:gap-2 hx:mt-3 hx:text-sm">
                 <span class="hx:opacity-50 hx:font-mono hx:text-xs">{{ .Date.Format "January 2, 2006" }}</span>
                 <span class="hx:opacity-20">•</span>
-                <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:font-medium hx:hover:underline"
+                <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:font-medium hx:!no-underline"
                     href="{{ .RelPermalink }}">Read more →</a>
             </div>
         </div>
