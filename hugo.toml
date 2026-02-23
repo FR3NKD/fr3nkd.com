@@ -22,3 +22,13 @@ name = "Store"
 url = "https://fr3nkd.gumroad.com/"
 weight = 2
 params = { newTab = true }
+
+[[menu.main]]
+name = "Search"
+weight = 3
+params = { type = "search" }
+
+[[menu.main]]
+name = "Dark Theme"
+weight = 4
+params = { type = "theme-toggle" }
