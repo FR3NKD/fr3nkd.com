@@ -12,6 +12,9 @@ displayLogo = false
 [params.footer]
 displayPoweredBy = false
 
+[params.theme]
+displayToggle = false
+
 [[menu.main]]
 name = "Blog"
 url = "/blog/"
