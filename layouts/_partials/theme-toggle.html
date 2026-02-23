@@ -1,45 +1,28 @@
 {{- $hideLabel := .hideLabel -}}
 {{- $iconHeight := .iconHeight | default 12 -}}
-{{- $class := .class | default "hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400" -}}
-
+{{- $class := .class | default `hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400` -}}
 {{- $changeTheme := (T "changeTheme") | default "Toggle Theme" -}}
-
-<button
-  title="{{ $changeTheme }}"
-  class="custom-theme-toggle hx:cursor-pointer hx:rounded-md hx:flex hx:items-center hx:gap-2 hx:font-medium {{ $class }}"
-  type="button"
-  aria-label="{{ $changeTheme }}"
->
-  {{- /* Default (Light) moon icon, hidden in dark mode */ -}}
-  {{- partial "utils/icon.html" (dict "name" "moon" "attributes" (printf `height=%d class="dark:hx:hidden"` $iconHeight)) -}}
-  
-  {{- /* Dark mode sun icon, shown only in dark mode */ -}}
-  {{- partial "utils/icon.html" (dict "name" "sun" "attributes" (printf `height=%d class="hx:hidden dark:hx:block"` $iconHeight)) -}}
+<button title="{{ $changeTheme }}" class="custom-theme-toggle hx:cursor-pointer hx:rounded-md hx:flex hx:items-center hx:gap-2 hx:font-medium {{ $class }}" type="button" aria-label="{{ $changeTheme }}">
+  {{- partial "utils/icon.html" (dict "name" "moon" "attributes" (printf `height=%d class="hx:dark:hidden dark:hidden hx:block"` $iconHeight)) -}}
+  {{- partial "utils/icon.html" (dict "name" "sun" "attributes" (printf `height=%d class="hx:hidden hx:dark:block dark:block"` $iconHeight)) -}}
 </button>
-
 <script>
-  (function() {
+  (function () {
     const btns = document.querySelectorAll('.custom-theme-toggle');
     btns.forEach(btn => {
-      // Prevent multiple listeners if partial is included multiple times
       if (btn.dataset.initialized) return;
       btn.dataset.initialized = 'true';
-      
       btn.addEventListener('click', (e) => {
         e.preventDefault();
         const isDark = document.documentElement.classList.contains('dark');
         const newTheme = isDark ? 'light' : 'dark';
-        
-        // setTheme is globally defined in hextra head scripts
         if (typeof setTheme === 'function') {
           setTheme(newTheme);
         } else {
-          // Fallback if setTheme isn't loaded
           document.documentElement.classList.remove('light', 'dark');
           document.documentElement.classList.add(newTheme);
           document.documentElement.style.colorScheme = newTheme;
         }
-        
         localStorage.setItem('color-theme', newTheme);
       });
     });
