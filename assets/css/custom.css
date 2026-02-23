@@ -28,16 +28,57 @@ a:hover {
     color: inherit !important;
 }
 
-/* Change font-size on root rather than *, so that headers aren't forced to 14px */
+/* Change base font sizes explicitly to 18px */
 html,
-body {
-    font-size: 14px !important;
+body,
+p,
+li,
+div,
+span,
+a,
+.hx-prose p,
+.hx-prose li,
+.hx-prose div,
+.hx-prose span,
+.hx-prose a {
+    font-size: 18px !important;
+}
+
+/* Make sure headers scale larger than the base text */
+h1,
+.hx-prose h1 {
+    font-size: 2.5rem !important;
+}
+
+h2,
+.hx-prose h2 {
+    font-size: 2rem !important;
+}
+
+h3,
+.hx-prose h3 {
+    font-size: 1.75rem !important;
+}
+
+h4,
+.hx-prose h4 {
+    font-size: 1.5rem !important;
+}
+
+h5,
+.hx-prose h5 {
+    font-size: 1.25rem !important;
+}
+
+h6,
+.hx-prose h6 {
+    font-size: 1.125rem !important;
 }
 
 /* Change font-family across the entire website including blog posts */
 *,
 .hx-prose * {
-    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif !important;
 }
 
 /* Preserve monospace for code blocks */
