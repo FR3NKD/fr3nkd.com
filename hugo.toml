@@ -2,3 +2,20 @@ baseURL = 'https://fr3nkd.com/'
 languageCode = 'en-us'
 title = 'fr3nkd'
 theme = "hextra"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.navbar]
+displayLogo = false
+
+[[menu.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 1
+
+[[menu.main]]
+name = "Store"
+url = "https://yourstore.gumroad.com"
+weight = 2
+params = { newTab = true }
