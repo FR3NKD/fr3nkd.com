@@ -5,8 +5,8 @@
 
 <div class="hx:mt-6 hx:mb-10">
     {{- range $pages }}
-    <div
-        class="hx:mb-8 hx:flex hx:flex-col hx:md:flex-row hx:gap-4 hx:items-start hx:bg-slate-50 hx:dark:bg-neutral-900 hx:p-4 hx:rounded-lg hx:border hx:border-slate-200 hx:dark:border-neutral-800">
+    <div class="hx:mb-8 hx:flex hx:flex-col hx:md:flex-row hx:gap-4 hx:items-start hx:bg-slate-50 hx:dark:bg-neutral-900
+    hx:p-4 hx:rounded-lg">
 
         {{- $images := findRE `!\[.*?\]\((.*?)\)` .RawContent -}}
         {{- if gt (len $images) 0 -}}

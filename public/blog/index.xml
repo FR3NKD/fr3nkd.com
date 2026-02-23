@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FR3NKD – Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://fr3nkd.com/blog/</link>
     <description>Recent content in Blog on FR3NKD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Feb 2026 16:30:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://fr3nkd.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,14 +17,14 @@
     
     <item>
       <title>My Second Update</title>
-      <link>http://localhost:1313/blog/second-post/</link>
+      <link>https://fr3nkd.com/blog/second-post/</link>
       <pubDate>Mon, 23 Feb 2026 16:30:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/second-post/</guid>
+      <guid>https://fr3nkd.com/blog/second-post/</guid>
       <description>
         
         
-        &lt;h1&gt;More things happening!&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/placeholder.jpg&#34; alt=&#34;Placeholder&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;h1&gt;More things happening!&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://fr3nkd.com/placeholder.jpg&#34; alt=&#34;Placeholder&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is a second post just to demonstrate how the homepage list automatically pulls in the newest content. As you add more files to the &lt;code&gt;blog/&lt;/code&gt; directory, they will stack up on the homepage automatically!&lt;/p&gt;
 
       </description>
@@ -32,14 +32,14 @@
     
     <item>
       <title>Welcome to my website</title>
-      <link>http://localhost:1313/blog/first-post/</link>
+      <link>https://fr3nkd.com/blog/first-post/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/first-post/</guid>
+      <guid>https://fr3nkd.com/blog/first-post/</guid>
       <description>
         
         
-        &lt;h1&gt;My first post&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/placeholder.jpg&#34; alt=&#34;Placeholder&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;h1&gt;My first post&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://fr3nkd.com/placeholder.jpg&#34; alt=&#34;Placeholder&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is a placeholder for my very first blog post.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll be using this space to write about the things I&amp;rsquo;m working on and share bits of my life. Stay tuned!&lt;/p&gt;
 

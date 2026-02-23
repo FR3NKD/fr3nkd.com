@@ -2,6 +2,10 @@
 toc: false
 ---
 
+# About Me
+
+Hey, I'm FR3NKD. I'm a 3D Artist and Content Creator.
+
 ## My Links
 
 {{< cards >}}
