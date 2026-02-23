@@ -1,9 +1,7 @@
 ---
-title: "FR3NKD"
+title: "Welcome to my website :D"
 toc: false
 ---
-
-# Welcome to FR3NKD
 
 This is my central hub where you can find all my content. 
 
@@ -17,4 +15,6 @@ This is my central hub where you can find all my content.
 {{< /cards >}}
 
 ## Latest updates
-Check out my latest thoughts and projects in the [Blog](/blog) section!
+Check out my latest thoughts below or visit the main [Blog](/blog) section!
+
+{{< recent-posts limit="3" >}}

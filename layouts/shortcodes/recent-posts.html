@@ -1,0 +1,21 @@
+{{- $limit := .Get "limit" | default 3 -}}
+{{- $pages := where site.RegularPages "Type" "blog" -}}
+{{- $pages = $pages | intersect (where site.RegularPages "IsPage" true) -}}
+{{- $pages = $pages.ByDate.Reverse | first $limit -}}
+
+<div class="hx:mt-6 hx:mb-10">
+  {{- range $pages }}
+    <div class="hx:mb-8">
+      <h3>
+        <a class="hx:block hx:font-semibold hx:text-xl hx:text-slate-900 hx:dark:text-slate-100 hx:hover:underline" href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+      </h3>
+      <p class="hx:opacity-80 hx:mt-2 hx:text-sm hx:leading-6">{{ .Summary | plainify | truncate 120 }}</p>
+      <div class="hx:flex hx:items-center hx:gap-2 hx:mt-2 hx:text-sm">
+        <span class="hx:opacity-50">{{ .Date.Format "January 2, 2006" }}</span>
+        <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:font-medium hx:hover:underline" href="{{ .RelPermalink }}">Read more →</a>
+      </div>
+    </div>
+  {{ end -}}
+</div>
