@@ -5,8 +5,6 @@ date: 2026-02-23T18:50:00+01:00
 
 ![Cover](cover.jpg)
 
-# I miss the old internet...
-
 We went from personal websites, blogs and forums to centralized platforms, algorithms, ads and corporations.
 
 I miss the old internet...
