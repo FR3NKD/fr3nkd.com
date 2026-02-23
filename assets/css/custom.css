@@ -28,6 +28,12 @@ a:hover {
     color: inherit !important;
 }
 
+/* Change font-size on root rather than *, so that headers aren't forced to 14px */
+html,
+body {
+    font-size: 14px !important;
+}
+
 /* Change font-family across the entire website including blog posts */
 *,
 .hx-prose * {
