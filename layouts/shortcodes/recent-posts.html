@@ -11,8 +11,8 @@
         {{- if gt (len $images) 0 -}}
         {{- $src := replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $images 0) -}}
         <a href="{{ .RelPermalink }}"
-            class="hx:shrink-0 hx:w-full hx:md:w-48 hx:aspect-video hx:md:h-32 hx:overflow-hidden hx:rounded hx:block">
-            <img src="{{ $src }}" alt="{{ .Title }}" class="hx:w-full hx:h-full hx:object-cover" />
+            class="hx:shrink-0 hx:w-full hx:md:w-48 hx:aspect-video hx:md:h-32 hx:overflow-hidden hx:rounded-lg hx:block">
+            <img src="{{ $src }}" alt="{{ .Title }}" class="hx:w-full hx:h-full hx:object-cover hx:rounded-lg" />
         </a>
         {{- end -}}
 
