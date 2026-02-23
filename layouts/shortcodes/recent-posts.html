@@ -4,18 +4,38 @@
 {{- $pages = $pages.ByDate.Reverse | first $limit -}}
 
 <div class="hx:mt-6 hx:mb-10">
-  {{- range $pages }}
-    <div class="hx:mb-8">
-      <h3>
-        <a class="hx:block hx:font-semibold hx:text-xl hx:text-slate-900 hx:dark:text-slate-100 hx:hover:underline" href="{{ .RelPermalink }}">
-          {{ .Title }}
-        </a>
-      </h3>
-      <p class="hx:opacity-80 hx:mt-2 hx:text-sm hx:leading-6">{{ .Summary | plainify | truncate 120 }}</p>
-      <div class="hx:flex hx:items-center hx:gap-2 hx:mt-2 hx:text-sm">
-        <span class="hx:opacity-50">{{ .Date.Format "January 2, 2006" }}</span>
-        <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:font-medium hx:hover:underline" href="{{ .RelPermalink }}">Read more →</a>
-      </div>
+    {{- range $pages }}
+    <div
+        class="hx:mb-8 hx:flex hx:flex-col hx:md:flex-row hx:gap-4 hx:items-start hx:bg-slate-50 hx:dark:bg-neutral-900 hx:p-4 hx:rounded-lg hx:border hx:border-slate-200 hx:dark:border-neutral-800">
+
+        {{- $images := findRE "<img.*?src=[\"'](.*?)[\"'].*?>" .Content -}}
+            {{- if gt (len $images) 0 -}}
+            {{- $firstImgContent := index $images 0 -}}
+            {{- $srcMatch := findRE "src=[\"'](.*?)[\"']" $firstImgContent -}}
+            {{- if gt (len $srcMatch) 0 -}}
+            {{- $src := index (findRE "(?i)[^src=[\"']](?:.)+(?i)[^[\"']]" (index $srcMatch 0)) 0 -}}
+            <a href="{{ .RelPermalink }}"
+                class="hx:shrink-0 hx:w-full hx:md:w-48 hx:h-32 hx:overflow-hidden hx:rounded hx:bg-slate-100 hx:dark:bg-neutral-800 hx:flex hx:items-center hx:justify-center">
+                <img src="{{ $src }}" alt="{{ .Title }}" class="hx:w-full hx:h-full hx:object-cover" />
+            </a>
+            {{- end -}}
+            {{- end -}}
+
+            <div class="hx:flex-1 hx:min-w-0">
+                <h3>
+                    <a class="hx:block hx:font-semibold hx:text-xl hx:text-slate-900 hx:dark:text-slate-100 hx:hover:underline"
+                        href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                </h3>
+                <p class="hx:opacity-80 hx:mt-2 hx:text-sm hx:leading-6">{{ .Summary | plainify | truncate 120 }}</p>
+                <div class="hx:flex hx:items-center hx:gap-2 hx:mt-3 hx:text-sm">
+                    <span class="hx:opacity-50 hx:font-mono hx:text-xs">{{ .Date.Format "January 2, 2006" }}</span>
+                    <span class="hx:opacity-20">•</span>
+                    <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:font-medium hx:hover:underline"
+                        href="{{ .RelPermalink }}">Read more →</a>
+                </div>
+            </div>
     </div>
-  {{ end -}}
+    {{ end -}}
 </div>

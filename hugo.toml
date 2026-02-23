@@ -9,10 +9,6 @@ unsafe = true
 [params.navbar]
 displayLogo = false
 
-[[menu.main]]
-name = "Blog"
-pageRef = "/blog"
-weight = 1
 
 [[menu.main]]
 name = "Store"

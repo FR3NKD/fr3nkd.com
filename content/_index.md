@@ -15,7 +15,4 @@ This is my central hub where you can find all my content.
   {{< card link="https://fr3nkd.gumroad.com/" title="Gumroad Store" icon="shopping-bag" >}}
 {{< /cards >}}
 
-## Latest updates
-Check out my latest thoughts below or visit the main [Blog](/blog) section!
-
 {{< recent-posts limit="3" >}}
