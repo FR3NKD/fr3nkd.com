@@ -2,10 +2,6 @@
 toc: false
 ---
 
-# About Me
-Hey, I'm FR3NKD. I'm a 3D Artist and Content Creator. 
-You might know me from Twitter where I post satisfying Blender clips. I love Godot, Blender and open-source in general.
-
 # My Links
 
 {{< cards >}}
@@ -14,5 +10,9 @@ You might know me from Twitter where I post satisfying Blender clips. I love God
   {{< card link="https://www.reddit.com/user/FR3NKD/" title="Reddit" icon="user-group" >}}
   {{< card link="https://fr3nkd.gumroad.com/" title="Store" icon="shopping-bag" >}}
 {{< /cards >}}
+
+# About Me
+Hey, I'm FR3NKD. I'm a 3D Artist and Content Creator. 
+You might know me from Twitter where I post satisfying Blender clips. I love Godot, Blender and open-source in general.
 
 {{< recent-posts limit="3" >}}
