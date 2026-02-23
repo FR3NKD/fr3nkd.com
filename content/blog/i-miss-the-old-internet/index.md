@@ -15,7 +15,7 @@ As a kid I was amazed by the internet. I could talk to people from all over the 
 
 Now it's all about private platforms with the only goal of making money by keeping you scrolling endlessly.
 
-But its not all lost! We are seeing the rise of this idea of "indie web" where people are creating their own websites and blogs again. Its a small movement but its growing.
+But its not all lost! We are seeing the rise of this idea of the "indie web" where people are creating their own websites and blogs again. Its a small movement but its growing.
 
 I think its important to have a place online that you own. A place where you can share your thoughts and ideas without worrying about algorithms or corporations.
 
