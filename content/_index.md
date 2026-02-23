@@ -1,4 +1,7 @@
 ---
-title: home
+title: Test Page
 ---
-Hello,I'm FR3NKD.
+
+# Hello World
+
+This is a test placeholder page to check if GitHub Pages is building correctly!
