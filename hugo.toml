@@ -16,6 +16,6 @@ weight = 1
 
 [[menu.main]]
 name = "Store"
-url = "https://yourstore.gumroad.com"
+url = "https://fr3nkd.gumroad.com/"
 weight = 2
 params = { newTab = true }

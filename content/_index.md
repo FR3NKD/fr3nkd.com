@@ -10,11 +10,10 @@ This is my central hub where you can find all my content.
 ## My Links
 
 {{< cards >}}
-  {{< card link="https://twitter.com/" title="Twitter" icon="x-twitter" >}}
-  {{< card link="https://youtube.com/" title="YouTube" icon="youtube" >}}
-  {{< card link="https://reddit.com/" title="Reddit" >}}
-  {{< card link="https://bsky.app/" title="Bluesky" >}}
-  {{< card link="https://gumroad.com/" title="Gumroad Store" >}}
+  {{< card link="https://x.com/FR3NKD" title="Twitter" icon="x-twitter" >}}
+  {{< card link="https://www.youtube.com/@FR3NKD" title="YouTube" icon="youtube" >}}
+  {{< card link="https://www.reddit.com/user/FR3NKD/" title="Reddit" icon="reddit" >}}
+  {{< card link="https://fr3nkd.gumroad.com/" title="Gumroad Store" icon="bag-shopping" >}}
 {{< /cards >}}
 
 ## Latest updates
