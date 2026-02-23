@@ -22,3 +22,8 @@ a {
 a:hover {
     text-decoration: none !important;
 }
+
+/* Fix heading link color (prevents blue overriding the black text constraint) */
+.hx-prose h3 a {
+    color: inherit !important;
+}
