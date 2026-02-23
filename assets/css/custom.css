@@ -27,3 +27,8 @@ a:hover {
 .hx-prose h3 a {
     color: inherit !important;
 }
+
+/* Change default light theme background color */
+html:not(.dark) body {
+    background-color: #EBEBEB !important;
+}
