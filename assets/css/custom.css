@@ -27,3 +27,14 @@ a:hover {
 .hx-prose h3 a {
     color: inherit !important;
 }
+
+/* Change font-family across the entire website */
+html,
+body,
+button,
+input,
+select,
+textarea,
+.hx-prose {
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif !important;
+}
