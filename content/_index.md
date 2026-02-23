@@ -4,7 +4,9 @@ toc: false
 
 # About Me
 
-Hey, I'm FR3NKD. I'm a 3D Artist and Content Creator.
+Hey, I'm FR3NKD. I'm a 3D Artist and Content Creator. You might know me from Twitter where I post satisfying Blender clips. but it's not just Blender, I love Godot, Blender and open-source in general.
+
+So if you like that stuff too you might be interested in what I have to say.
 
 ## My Links
 
