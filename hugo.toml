@@ -1,6 +1,6 @@
 baseURL = 'https://fr3nkd.com/'
 languageCode = 'en-us'
-title = 'fr3nkd'
+title = 'FR3NKD'
 theme = "hextra"
 
 [markup.goldmark.renderer]

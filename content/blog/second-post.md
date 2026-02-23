@@ -6,4 +6,6 @@ draft: false
 
 # More things happening!
 
+![Placeholder](/placeholder.jpg)
+
 This is a second post just to demonstrate how the homepage list automatically pulls in the newest content. As you add more files to the `blog/` directory, they will stack up on the homepage automatically!
