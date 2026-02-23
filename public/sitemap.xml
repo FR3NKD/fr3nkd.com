@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53841/</loc>
+    <loc>https://fr3nkd.com/</loc>
     <lastmod>2026-02-23T18:50:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53841/blog/</loc>
+    <loc>https://fr3nkd.com/blog/</loc>
     <lastmod>2026-02-23T18:50:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53841/blog/i-miss-the-old-internet/</loc>
+    <loc>https://fr3nkd.com/blog/i-miss-the-old-internet/</loc>
     <lastmod>2026-02-23T18:50:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:53841/categories/</loc>
+    <loc>https://fr3nkd.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:53841/tags/</loc>
+    <loc>https://fr3nkd.com/tags/</loc>
   </url>
 </urlset>
