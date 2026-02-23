@@ -1,0 +1,4 @@
+baseURL = 'https://fr3nkd.com/'
+languageCode = 'en-us'
+title = 'fr3nkd'
+theme = "hextra"
