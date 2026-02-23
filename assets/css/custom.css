@@ -28,13 +28,16 @@ a:hover {
     color: inherit !important;
 }
 
-/* Change font-family across the entire website */
-html,
-body,
-button,
-input,
-select,
-textarea,
-.hx-prose {
+/* Change font-family across the entire website including blog posts */
+*,
+.hx-prose * {
     font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif !important;
+}
+
+/* Preserve monospace for code blocks */
+code,
+pre,
+pre *,
+code * {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
