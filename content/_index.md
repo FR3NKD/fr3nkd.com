@@ -2,10 +2,6 @@
 toc: false
 ---
 
-# Welcome to my website
-
-This is my central hub where you can find all my content. 
-
 ## My Links
 
 {{< cards >}}

@@ -9,6 +9,8 @@ unsafe = true
 [params.navbar]
 displayLogo = false
 
+[params.footer]
+displayPoweredBy = false
 
 [[menu.main]]
 name = "Store"
