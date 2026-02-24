@@ -1,29 +1,76 @@
-/* Remove thin lines under headers and bottom borders */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    border-bottom: none !important;
+/* 1. Base fonts and typography */
+body {
+    /* Apply base font and size to the body, everything else will inherit it */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
 }
 
-/* Remove `<hr>` divisor lines */
-hr {
-    display: none !important;
+/* 2. Prose overrides (Hextra specific content area) */
+body .hx-prose p,
+body .hx-prose li,
+body .hx-prose div,
+body .hx-prose span,
+body .hx-prose a {
+    font-size: 18px;
 }
 
-/* Remove hyperlink underlines */
-a {
-    text-decoration: none !important;
+/* 3. Scaled Headers (without !important) */
+/* By putting 'body' in front, we increase specificity naturally without !important */
+body h1,
+body .hx-prose h1 {
+    font-size: 2.5rem;
+    border-bottom: none;
 }
 
-/* Remove hover underlines on links */
-a:hover {
-    text-decoration: none !important;
+body h2,
+body .hx-prose h2 {
+    font-size: 2rem;
+    border-bottom: none;
 }
 
-/* Fix heading link color (prevents blue overriding the black text constraint) */
-.hx-prose h3 a {
-    color: inherit !important;
+body h3,
+body .hx-prose h3 {
+    font-size: 1.75rem;
+    border-bottom: none;
+}
+
+body h4,
+body .hx-prose h4 {
+    font-size: 1.5rem;
+    border-bottom: none;
+}
+
+body h5,
+body .hx-prose h5 {
+    font-size: 1.25rem;
+    border-bottom: none;
+}
+
+body h6,
+body .hx-prose h6 {
+    font-size: 1.125rem;
+    border-bottom: none;
+}
+
+/* 4. Fix heading link color */
+body .hx-prose h3 a {
+    color: inherit;
+}
+
+/* 5. Clean up links and dividers */
+body a,
+body a:hover {
+    text-decoration: none;
+}
+
+body hr {
+    display: none;
+}
+
+/* 6. Preserve monospace for code blocks */
+body code,
+body pre,
+body pre *,
+body code * {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

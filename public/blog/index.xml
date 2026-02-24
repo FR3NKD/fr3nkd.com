@@ -5,7 +5,7 @@
     <description>Recent content in Blogs on FR3NKD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 18:50:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 13:08:41 +0100</lastBuildDate>
     
 	  <atom:link href="https://fr3nkd.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,6 +14,64 @@
         
       
     
+    
+    <item>
+      <title>I failed at game dev in my 20s, now what?</title>
+      <link>https://fr3nkd.com/blog/i-failed-at-game-dev-in-my-20s-now-what/</link>
+      <pubDate>Tue, 24 Feb 2026 13:08:41 +0100</pubDate>
+      
+      <guid>https://fr3nkd.com/blog/i-failed-at-game-dev-in-my-20s-now-what/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;cover.jpg&#34; alt=&#34;Cover&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;ldquo;Videogames are the sum total of every expressive medium of all times. Made interactive!&amp;rdquo; - &lt;em&gt;Phil Fish&lt;/em&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;h2&gt;The Calling of Games&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-calling-of-games&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-calling-of-games&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I discovered game development when I was a teenager and it quickly became a bit of an obsession, so I set a goal for myself: I was going to become a game developer. When the time came to choose a university, I decided to study game development.&lt;/p&gt;
+&lt;p&gt;I spent a year at a game development school. Before starting, we had to choose if we wanted to study art, coding, or game design. I was artistically inclined, so I chose art.&lt;/p&gt;
+&lt;p&gt;I wasn’t really happy that I had to choose, but that choice defined my future; I started to see myself as a game artist.&lt;/p&gt;
+&lt;h2&gt;A Foot in the Door&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;a-foot-in-the-door&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-foot-in-the-door&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After my studies ended, I found a job as a QA tester in the only AAA studio here in Italy. It felt really strange to have finally reached my goals. I felt&amp;hellip; almost empty. But anyway, the idea was to get a foot in the door.&lt;/p&gt;
+&lt;p&gt;My next goal was to get hired as an artist. But after talking with the senior artists there and doing some internal interviews, I realized that I wasn’t ready yet. My portfolio wasn’t enough. After six months, I left the studio to start studying online and improving my skills.&lt;/p&gt;
+&lt;h2&gt;Something Felt Off&amp;hellip;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;something-felt-off&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#something-felt-off&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Eventually, after a year of studying, I got good enough to land a job as a game environment artist. But something felt off. We were making games, so why were my colleagues so depressed?&lt;/p&gt;
+&lt;p&gt;I worked in that studio for six months. It made me realize that this wasn&amp;rsquo;t what I was looking for. Being an artist on a team meant that my contribution to the final product was tiny. This wasn&amp;rsquo;t scratching the itch for me, and after six months, I left to work as a freelance 3D artist.&lt;/p&gt;
+&lt;h2&gt;Going Off Track&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;going-off-track&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#going-off-track&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In the following year, I worked in advertising, did some VFX for a documentary, and eventually ended up working as an artist doing VR development in Unity for a medium-sized company. I did that for a couple of years and learned a lot about optimization.&lt;/p&gt;
+&lt;h2&gt;Discovering Godot&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;discovering-godot&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#discovering-godot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;During that time, I also discovered Godot and completely fell in love with it. I started sharing my work online and developed a small following interested in Blender and Godot.&lt;/p&gt;
+&lt;p&gt;I was primarily working with one other person, a coder, and eventually, we split from that company to start our own. Our idea was to make VR and web applications for businesses, and eventually invest the money we earned into a big game project.&lt;/p&gt;
+&lt;p&gt;This is when something really big happened&amp;hellip;&lt;/p&gt;
+&lt;h2&gt;The Lawsuit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-lawsuit&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-lawsuit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A client threatened a lawsuit against us to force us to work for free. We had to spend a lot of money to defend ourselves but ended up reaching an agreement.&lt;/p&gt;
+&lt;p&gt;It was the most stressful period of my life. We were both done with clients.&lt;/p&gt;
+&lt;h2&gt;Going All In&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;going-all-in&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#going-all-in&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We wanted to make games. And so we did! We invested our remaining money into a multiplayer game made in Godot. Aaand&amp;hellip; it flopped.&lt;/p&gt;
+&lt;p&gt;We wanted to make too much in too little time, and the scope of the project was too big for our budget. We drained all our money, reached a state of complete burnout, and were forced to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publish an unfinished product.&lt;/li&gt;
+&lt;li&gt;Split up as a team.&lt;/li&gt;
+&lt;li&gt;Find &amp;ldquo;real&amp;rdquo; jobs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Time to Give Up?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;time-to-give-up&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#time-to-give-up&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;And that was my game development journey in my twenties. Now, more than a year has passed since my last production.&lt;/p&gt;
+&lt;p&gt;I have a job thanks to my small Twitter following, selling digital products and Blender courses online. I don&amp;rsquo;t make a ton of money, but it&amp;rsquo;s enough to get by.&lt;/p&gt;
+&lt;p&gt;I recently turned thirty, and that passion I had for game development as a teenager hasn&amp;rsquo;t changed a bit. I still want to make games, but this time, I want it all! I want to make the art, the code, the design, and the sound, everything!&lt;/p&gt;
+&lt;p&gt;After all, this is why I love video games.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;ldquo;Videogames are the sum total of every expressive medium of all times. Made interactive!&amp;rdquo; - &lt;em&gt;Phil Fish&lt;/em&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;h2&gt;What&amp;rsquo;s Next?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#whats-next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So, what&amp;rsquo;s the plan now? Obviously, I&amp;rsquo;m starting a blog. I still don&amp;rsquo;t have all the skills to be a solo developer yet, so I’ll need to learn.&lt;/p&gt;
+&lt;p&gt;This blog is a place to document my journey. For myself, to look back on in five years, and for others to follow right now.&lt;/p&gt;
+&lt;p&gt;If you want to support me and my dream of becoming a full-time indie developer, you can just follow me on my socials. Thank you for reading, and I’ll see you in the next blog post.&lt;/p&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>I miss the old internet...</title>
@@ -25,13 +83,13 @@
         
         
         &lt;p&gt;&lt;img src=&#34;cover.jpg&#34; alt=&#34;Cover&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;We went from personal websites, blogs and forums to centralized platforms, algorithms, ads and corporations.&lt;/p&gt;
-&lt;p&gt;I miss the old internet&amp;hellip;&lt;/p&gt;
-&lt;p&gt;As a kid I was amazed by the internet. I could talk to people from all over the world, learn new things, play games, watch videos, listen to music, do so many things. It was magical.&lt;/p&gt;
-&lt;p&gt;Now it&amp;rsquo;s all about private platforms with the only goal of making money by keeping you scrolling endlessly.&lt;/p&gt;
-&lt;p&gt;But its not all lost! We are seeing the rise of this idea of the &amp;ldquo;indie web&amp;rdquo; where people are creating their own websites and blogs again. Its a small movement but its growing.&lt;/p&gt;
-&lt;p&gt;I think its important to have a place online that you own. A place where you can share your thoughts and ideas without worrying about algorithms or corporations.&lt;/p&gt;
-&lt;p&gt;Thats why I created this website. A place where I can share my thoughts and ideas with the world. A place where I can be myself.&lt;/p&gt;
+&lt;p&gt;We went from personal websites, blogs, and forums to centralized platforms, algorithms, ads, and corporations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I miss the old internet.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a kid, I was amazed by the web. I could talk to people from all over the world, learn new things, play games, watch videos, and listen to music, it was magical.&lt;/p&gt;
+&lt;p&gt;Now, it’s all about private platforms whose only goal is to make money by keeping you endlessly scrolling.&lt;/p&gt;
+&lt;p&gt;But it&amp;rsquo;s not all lost! We are seeing the rise of the &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=tkUgOT22F5s&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;indie web&lt;/a&gt;&amp;rdquo; where people are creating their own websites and blogs again. It&amp;rsquo;s a small movement, but it&amp;rsquo;s growing.&lt;/p&gt;
+&lt;p&gt;I think it&amp;rsquo;s important to have a place online that you actually own. A space where you can share your thoughts and ideas without worrying about algorithms or corporate oversight.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why I created this website. It&amp;rsquo;s a place where I can share my ideas with the world, and most importantly, a place where I can just be myself.&lt;/p&gt;
 
       </description>
     </item>
